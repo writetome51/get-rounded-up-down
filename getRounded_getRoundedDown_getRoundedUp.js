@@ -7,7 +7,6 @@ function getRounded(num) {
 exports.getRounded = getRounded;
 function getRoundedDown(num) {
     return num < 0 ? (num - 1) >> 0 : num >> 0;
-    // return num >> 0;
 }
 exports.getRoundedDown = getRoundedDown;
 function getRoundedUp(num) {

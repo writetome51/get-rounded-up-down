@@ -6,7 +6,6 @@ export function getRounded(num) {
 
 export function getRoundedDown(num) {
 	return num < 0 ? (num - 1) >> 0: num >> 0;
-	// return num >> 0;
 }
 
 
