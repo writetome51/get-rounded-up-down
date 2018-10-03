@@ -5,10 +5,11 @@ export function getRounded(num) {
 
 
 export function getRoundedDown(num) {
-	return Math.floor(num) + 0; // the plus-zero fixes strange -0 bug.
+	return num < 0 ? (num - 1) >> 0: num >> 0;
+	// return num >> 0;
 }
 
 
 export function getRoundedUp(num) {
-	return Math.ceil(num) + 0; // the plus-zero fixes strange -0 bug.
+	return (getRoundedDown(num) + 1);
 }

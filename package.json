@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For common manipulation of numbers.",
   "main": "",
   "scripts": {
@@ -9,7 +9,10 @@
   "keywords": [
     "math",
     "numbers",
-    "functions"
+    "rounding",
+    "round",
+    "up",
+    "down"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
