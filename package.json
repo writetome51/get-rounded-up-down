@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "For common manipulation of numbers.",
   "main": "",
   "scripts": {
@@ -18,5 +18,6 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
+    "basic-data-handling": "latest"
   }
 }
