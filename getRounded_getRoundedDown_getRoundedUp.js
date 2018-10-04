@@ -17,4 +17,3 @@ function getRoundedUp(num) {
     return (getRoundedDown(num) + 1);
 }
 exports.getRoundedUp = getRoundedUp;
-return num;
