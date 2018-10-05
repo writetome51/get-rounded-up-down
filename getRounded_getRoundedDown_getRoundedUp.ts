@@ -11,7 +11,8 @@ export function getRounded(num) {
 
 export function getRoundedDown(num) {
 	errorIfNotNumber(num);
-	return num < 0 ? (num - 1) >> 0: num >> 0;
+	if (isFloat(num)) return num < 0 ? (num - 1) >> 0: num >> 0;
+	else return num;
 }
 
 

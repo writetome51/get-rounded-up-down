@@ -10,7 +10,10 @@ function getRounded(num) {
 exports.getRounded = getRounded;
 function getRoundedDown(num) {
     errorIfNotNumber_1.errorIfNotNumber(num);
-    return num < 0 ? (num - 1) >> 0 : num >> 0;
+    if (isInteger_isFloat_1.isFloat(num))
+        return num < 0 ? (num - 1) >> 0 : num >> 0;
+    else
+        return num;
 }
 exports.getRoundedDown = getRoundedDown;
 function getRoundedUp(num) {
