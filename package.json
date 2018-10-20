@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "For common rounding of numbers.",
   "main": "index.js",
   "scripts": {
