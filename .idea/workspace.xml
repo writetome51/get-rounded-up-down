@@ -15,10 +15,10 @@
     <session id="-850720006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.0" value="5" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -26,36 +26,36 @@
           <entry key="LICENSE" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="js" value="3" />
-          <entry key="json" value="14" />
+          <entry key="json" value="16" />
           <entry key="md" value="5" />
-          <entry key="ts" value="36" />
+          <entry key="ts" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JSON" value="14" />
+          <entry key="JSON" value="16" />
           <entry key="JavaScript" value="3" />
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="TypeScript" value="36" />
+          <entry key="TypeScript" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="json" value="61" />
+          <entry key="json" value="116" />
           <entry key="md" value="226" />
           <entry key="ts" value="937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="61" />
+          <entry key="JSON" value="116" />
           <entry key="PLAIN_TEXT" value="226" />
           <entry key="TypeScript" value="937" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="5" />
+          <entry key="TypeScriptServerServiceImpl" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -89,10 +89,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/tests.ts" />
-        <option value="$PROJECT_DIR$/getRounded_getRoundedDown_getRoundedUp.ts" />
         <option value="$PROJECT_DIR$/tests/getRoundedUp_tests.ts" />
         <option value="$PROJECT_DIR$/tests/getRounded_tests.ts" />
         <option value="$PROJECT_DIR$/tests/getRoundedDown_tests.ts" />
+        <option value="$PROJECT_DIR$/getRounded_getRoundedDown_getRoundedUp.ts" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -119,7 +119,7 @@
   <component name="PackageJsonUpdateNotifier">
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="831" />
@@ -171,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.getRounded_tests.js">
+  <component name="RunManager" selected="Node.js.getRoundedUp_tests.js">
     <configuration name="getRoundedDown_tests.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/getRoundedDown_tests.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -188,9 +188,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.getRounded_tests.js" />
         <item itemvalue="Node.js.getRoundedUp_tests.js" />
         <item itemvalue="Node.js.getRoundedDown_tests.js" />
+        <item itemvalue="Node.js.getRounded_tests.js" />
       </list>
     </recent_temporary>
   </component>
@@ -210,29 +210,30 @@
       <workItem from="1538687594191" duration="334000" />
       <workItem from="1538688489509" duration="578000" />
       <workItem from="1538699980953" duration="3747000" />
+      <workItem from="1539320271490" duration="746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8633000" />
+    <option name="totallyTimeSpent" value="9379000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="831" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.3118741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68277574" visible="true" weight="0.27038628" />
       <window_info id="Structure" order="1" sideWeight="0.50139666" side_tool="true" weight="0.2634943" />
       <window_info id="Favorites" order="2" sideWeight="0.3172243" side_tool="true" weight="0.26145172" />
       <window_info id="npm" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.27137548" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.3226257" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989429" weight="0.3216783" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010571" side_tool="true" weight="0.4857497" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.47206703" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.42877096" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.42797202" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32402235" />
       <window_info anchor="bottom" id="Duplicates" order="12" weight="0.32925472" />
@@ -288,13 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/getRounded_tests.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/getRoundedDown_tests.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -309,20 +303,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/getRounded_getRoundedDown_getRoundedUp.ts">
+    <entry file="file://$PROJECT_DIR$/tests/getRounded_tests.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#70#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1380">
+          <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getRounded_getRoundedDown_getRoundedUp.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
