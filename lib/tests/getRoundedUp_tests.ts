@@ -1,4 +1,4 @@
-import { getRoundedUp } from '../getRounded_getRoundedDown_getRoundedUp';
+import { getRoundedUp } from '../index';
 
 
 // Test 1

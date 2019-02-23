@@ -1,68 +1,68 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var getRounded_getRoundedDown_getRoundedUp_1 = require("../getRounded_getRoundedDown_getRoundedUp");
+var index_1 = require("../index");
 // Test 1
-var result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(0);
+var result = index_1.getRounded(0);
 if (result === 0)
     console.log('test 1 passed');
 else
     console.log('test 1 failed');
 // Test 2
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(0.000001);
+result = index_1.getRounded(0.000001);
 if (result === 0)
     console.log('test 2 passed');
 else
     console.log('test 2 failed');
 // Test 3
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(-0.000001);
+result = index_1.getRounded(-0.000001);
 if (result === 0)
     console.log('test 3 passed');
 else
     console.log('test 3 failed');
 // Test 4
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(-2);
+result = index_1.getRounded(-2);
 if (result === -2)
     console.log('test 4 passed');
 else
     console.log('test 4 failed');
 // Test 5
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(2);
+result = index_1.getRounded(2);
 if (result === 2)
     console.log('test 5 passed');
 else
     console.log('test 5 failed');
 // Test 6
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(21.5);
+result = index_1.getRounded(21.5);
 if (result === 22)
     console.log('test 6 passed');
 else
     console.log('test 6 failed');
 // Test 7
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(22.5);
+result = index_1.getRounded(22.5);
 if (result === 23)
     console.log('test 7 passed');
 else
     console.log('test 7 failed');
 // Test 8
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(-21.5);
+result = index_1.getRounded(-21.5);
 if (result === -21)
     console.log('test 8 passed');
 else
     console.log('test 8 failed');
 // Test 9
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(-22.5);
+result = index_1.getRounded(-22.5);
 if (result === -22)
     console.log('test 9 passed');
 else
     console.log('test 9 failed');
 // Test 10
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(-22.499);
+result = index_1.getRounded(-22.499);
 if (result === -22)
     console.log('test 10 passed');
 else
     console.log('test 10 failed');
 // Test 11
-result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(22.499);
+result = index_1.getRounded(22.499);
 if (result === 22)
     console.log('test 11 passed');
 else
@@ -70,7 +70,7 @@ else
 // Test 12
 var errorTriggered = false;
 try {
-    result = getRounded_getRoundedDown_getRoundedUp_1.getRounded('2');
+    result = index_1.getRounded('2');
 }
 catch (e) {
     errorTriggered = true;
@@ -82,7 +82,7 @@ else
 // Test 13
 errorTriggered = false;
 try {
-    result = getRounded_getRoundedDown_getRoundedUp_1.getRounded(false);
+    result = index_1.getRounded(false);
 }
 catch (e) {
     errorTriggered = true;

@@ -1,12 +1,30 @@
-This package has 3 functions:
+# getRounded(number): number
 
-getRounded(number),  getRoundedDown(number),  getRoundedUp(number)
+Behaves the same as `Math.round()` .
 
-If you pass anything but a finite number to any of them, you'll get an error.
+# getRoundedDown(number): number
+
+A faster version of `Math.floor()` .
+ 
+# getRoundedUp(number): number
+
+A faster version of `Math.ceil()` .
+
+For all 3 functions, `number` must be a finite number of type 'number'.
 
 
-getRounded() behaves exactly the same as Math.round()
+## Installation
 
-getRoundedDown() is a faster version of Math.floor()
+`npm i  @writetome51/get-rounded-up-down`
 
-getRoundedUp() is a faster version of Math.ceil()
+## Loading
+```
+// if using TypeScript:
+import { getRounded, getRoundedDown, getRoundedUp } 
+    from '@writetome51/get-rounded-up-down';
+    
+// if using ES5 JavaScript:
+var getRounded = require('@writetome51/get-rounded-up-down').getRounded;
+var getRoundedDown = require('@writetome51/get-rounded-up-down').getRoundedDown;
+var getRoundedUp = require('@writetome51/get-rounded-up-down').getRoundedUp;
+```
