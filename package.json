@@ -1,7 +1,7 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "1.0.9",
-  "description": "For common rounding of numbers.",
+  "version": "1.0.10",
+  "description": "3 functions: getRounded(), getRoundedUp(), getRoundedDown()",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/writetome51/get-rounded-up-down#readme",
   "dependencies": {
-    "basic-data-handling": "~1.0.15",
-    "@writetome51/get-left-of-decimal": "~1.0.4"
+    "@writetome51/is-integer-is-float": "~1.0.0",
+    "@writetome51/get-left-of-decimal": "~1.0.5",
+    "error-if-not-finite-number": "~1.0.0"
   }
 }
