@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "3 functions: getRounded(), getRoundedUp(), getRoundedDown()",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -12,6 +12,7 @@
     "numbers",
     "rounding",
     "round",
+    "rounded",
     "up",
     "down"
   ],
