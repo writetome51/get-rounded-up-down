@@ -4,11 +4,14 @@ import { getLeftOfDecimal } from '@writetome51/get-left-of-decimal';
 
 
 // Rounds num using the method taught in school.
+
 export function getRounded(num) {
 	errorIfNotFiniteNumber(num);
 	return Math.round(num) + 0; // the plus-zero fixes strange -0 bug.
 }
 
+
+// Faster version of Math.floor()
 
 export function getRoundedDown(num) {
 	errorIfNotFiniteNumber(num);
@@ -16,6 +19,8 @@ export function getRoundedDown(num) {
 	else return num;
 }
 
+
+// Faster version of Math.ceil()
 
 export function getRoundedUp(num) {
 	errorIfNotFiniteNumber(num);
