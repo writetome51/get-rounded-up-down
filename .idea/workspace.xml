@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fbce077-3665-40af-a9bf-7b5f4deba8a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/__privy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/.npmignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRoundedDown_tests.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRoundedDown_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getRoundedDown_tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRoundedUp_tests.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRoundedUp_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getRoundedUp_tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRounded_tests.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/tests/getRounded_tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/tests/getRounded_tests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tests/getRoundedDown_tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tests/getRoundedUp_tests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/tests/getRounded_tests.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,16 +33,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>errorifnotnumber</find>
-      <find>getroundeddown</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>errorIfNotFloat</replace>
-      <replace>getRounded</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,29 +67,30 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/tests" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.getRoundedUp_tests.js (1)">
-    <configuration name="getRoundedDown_tests.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="getRoundedDown_tests.js" working-dir="$PROJECT_DIR$/dist/tests">
-      <method v="2" />
-    </configuration>
     <configuration name="getRoundedDown_tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/tests/getRoundedDown_tests.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
-    <configuration name="getRoundedUp_tests.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="getRoundedUp_tests.js" working-dir="$PROJECT_DIR$/dist/tests">
+    <configuration name="getRoundedDown_tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/getRoundedDown_tests.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
     <configuration name="getRoundedUp_tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/lib/tests/getRoundedUp_tests.js" working-dir="$PROJECT_DIR$/lib/tests">
       <method v="2" />
     </configuration>
-    <configuration name="getRounded_tests.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="getRounded_tests.js" working-dir="$PROJECT_DIR$/dist/tests">
+    <configuration name="getRoundedUp_tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/getRoundedUp_tests.js" working-dir="$PROJECT_DIR$/tests">
+      <method v="2" />
+    </configuration>
+    <configuration name="getRounded_tests.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/tests/getRounded_tests.js" working-dir="$PROJECT_DIR$/tests">
       <method v="2" />
     </configuration>
     <list>
@@ -130,7 +133,7 @@
       <workItem from="1550890094131" duration="1542000" />
       <workItem from="1555013496396" duration="500000" />
       <workItem from="1555786123795" duration="285000" />
-      <workItem from="1596431600053" duration="206000" />
+      <workItem from="1596431600053" duration="2330000" />
     </task>
     <servers />
   </component>
@@ -141,10 +144,30 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596431741936">
+    <state width="1398" height="545" key="GridCell.Tab.0.bottom" timestamp="1596433838453">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596431741936" />
+    <state width="1398" height="545" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596433838453" />
+    <state width="1398" height="545" key="GridCell.Tab.0.center" timestamp="1596433838448">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="545" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596433838448" />
+    <state width="1398" height="545" key="GridCell.Tab.0.left" timestamp="1596433838446">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="545" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596433838446" />
+    <state width="1398" height="545" key="GridCell.Tab.0.right" timestamp="1596433838451">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="545" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596433838451" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1596432136788">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1596432136788" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1596431926479">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1596431926479" />
   </component>
   <component name="masterDetails">
     <states>

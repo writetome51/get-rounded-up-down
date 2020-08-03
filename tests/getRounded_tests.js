@@ -1,4 +1,4 @@
-import { getRounded } from '../index';
+import { getRounded } from '../index.js';
 // Test 1
 let result = getRounded(0);
 if (result === 0)
