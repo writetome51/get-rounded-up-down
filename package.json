@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "3 functions: getRounded(), getRoundedUp(), getRoundedDown()",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "math",
     "numbers",
@@ -11,7 +12,9 @@
     "round",
     "rounded",
     "up",
-    "down"
+    "down",
+    "cumulative",
+    "errors"
   ],
   "author": "Steve Thompson",
   "license": "MIT",
@@ -25,7 +28,9 @@
   "homepage": "https://github.com/writetome51/get-rounded-up-down#readme",
   "dependencies": {
     "@writetome51/get-left-of-decimal": "^2.0.0",
+    "@writetome51/get-right-of-decimal": "^2.0.0",
     "@writetome51/is-integer-is-float": "^2.0.0",
+    "@writetome51/is-odd-is-even": "^2.0.0",
     "error-if-not-finite-number": "^2.0.0"
   }
 }

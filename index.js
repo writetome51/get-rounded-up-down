@@ -1,30 +1,34 @@
-import {isFloat} from '@writetome51/is-integer-is-float';
 import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal';
+import {getRightOfDecimal} from '@writetome51/get-right-of-decimal';
+import {isOdd, isEven} from '@writetome51/is-odd-is-even';
 import {validateNumber_andGetResult} from './__privy.js';
 
 
-// Rounds num using the method taught in school.
+// This function avoids cumulative rounding errors only by changing rounding rules
+// when the fraction part of `num` is .5:
+//	   If `num`'s whole number is even, `num` is rounded toward zero.
+// 	   If `num`'s whole number is odd, `num` is rounded away from zero.
 
-export function getRounded(num) { // the plus-zero fixes strange -0 bug.
-	return validateNumber_andGetResult(num, () => Math.round(num) + 0);
-}
-
-
-// Faster version of Math.floor()
-
-export function getRoundedDown(num) {
+export function getRounded(num) {
 	return validateNumber_andGetResult(num, () => {
-		if (isFloat(num)) return (num < 0 ? getLeftOfDecimal(num - 1) : getLeftOfDecimal(num));
-		else return num;
+
+		let integerPart = getLeftOfDecimal(num);
+		let decimalPart = getRightOfDecimal(num); // is string
+
+		if (decimalPart === '5') {
+			if (isOdd(integerPart) && integerPart < 0) return (integerPart - 1);
+			else if (isEven(integerPart)) return integerPart;
+		}
+		return (Math.round(num) + 0); // the plus-zero fixes strange -0 bug.
 	});
 }
 
 
-// Faster version of Math.ceil()
+export function getRoundedDown(num) {
+	return validateNumber_andGetResult(num, Math.floor);
+}
+
 
 export function getRoundedUp(num) {
-	return validateNumber_andGetResult(
-		num,
-		() => isFloat(num) ? (getRoundedDown(num) + 1) : num
-	);
+	return validateNumber_andGetResult(num, Math.ceil);
 }

@@ -1,16 +1,21 @@
-# getRounded(number): number
+# getRounded(num): number
 
-Behaves the same as `Math.round()` .
+Avoids cumulative rounding errors only by changing rounding rules when  
+the fraction part of `num` is `.5` :  
+<ul>  
+    <li>If <code>num</code>'s whole number is even, `num` is rounded toward zero.</li>
+    <li>If <code>num</code>'s whole number is odd, `num` is rounded away from zero.</li>
+ </ul>
 
-# getRoundedDown(number): number
+# getRoundedDown(num): number
 
-A faster version of `Math.floor()` .
+Behaves same as `Math.floor()` .
  
-# getRoundedUp(number): number
+# getRoundedUp(num): number
 
-A faster version of `Math.ceil()` .
+Behaves same as `Math.ceil()` .
 
-For all 3 functions, `number` must be a finite number of type 'number'.
+For all 3 functions, `num` must be a finite number of type 'number'.
 
 
 ## Installation
