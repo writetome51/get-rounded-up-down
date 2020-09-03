@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-rounded-up-down",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "3 functions: getRounded(), getRoundedUp(), getRoundedDown()",
   "type": "module",
   "main": "index.js",
