@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/writetome51/get-rounded-up-down#readme",
   "dependencies": {
-    "@writetome51/get-left-of-decimal": "^2.0.0",
-    "@writetome51/get-right-of-decimal": "^2.0.0",
-    "@writetome51/is-integer-is-float": "^2.0.0",
-    "@writetome51/is-odd-is-even": "^2.0.0",
-    "error-if-not-finite-number": "^2.0.0"
+    "@writetome51/get-left-of-decimal": ">=3.0.0",
+    "@writetome51/get-right-of-decimal": ">=2.0.2",
+    "@writetome51/is-integer-is-float": ">=2.0.1",
+    "@writetome51/is-odd-is-even": ">=2.0.0",
+    "error-if-not-finite-number": ">=2.0.1"
   }
 }

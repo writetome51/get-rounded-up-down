@@ -1,7 +1,7 @@
 import {getLeftOfDecimal} from '@writetome51/get-left-of-decimal';
 import {getRightOfDecimal} from '@writetome51/get-right-of-decimal';
 import {isOdd, isEven} from '@writetome51/is-odd-is-even';
-import {validateNumber_andGetResult} from './__privy.js';
+import {validateNumber_andGetResult, __getRoundedDown} from './__privy.js';
 
 
 // This function avoids cumulative rounding errors only by changing rounding rules
@@ -12,8 +12,8 @@ import {validateNumber_andGetResult} from './__privy.js';
 export function getRounded(num) {
 	return validateNumber_andGetResult(num, () => {
 
-		let integerPart = getLeftOfDecimal(num);
-		let decimalPart = getRightOfDecimal(num); // is string
+		// `decimalPart`: string
+		let [integerPart, decimalPart] = [getLeftOfDecimal(num), getRightOfDecimal(num)];
 
 		if (decimalPart === '5') {
 			if (isOdd(integerPart) && integerPart < 0) return (integerPart - 1);
@@ -25,10 +25,10 @@ export function getRounded(num) {
 
 
 export function getRoundedDown(num) {
-	return validateNumber_andGetResult(num, Math.floor);
+	return validateNumber_andGetResult(num, __getRoundedDown);
 }
 
 
 export function getRoundedUp(num) {
-	return validateNumber_andGetResult(num, Math.ceil);
+	return validateNumber_andGetResult(num, () => __getRoundedDown(num) + 1);
 }

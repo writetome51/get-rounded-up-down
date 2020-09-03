@@ -52,6 +52,11 @@ result = getRoundedDown(2.9999);
 if (result === 2) console.log('test 7 passed');
 else console.log('test 7 FAILED');
 
+// Test 7A
+result = getRoundedDown(2.001);
+if (result === 2) console.log('test 7A passed');
+else console.log('test 7A FAILED');
+
 
 // Test 8
 let errorTriggered = false;
