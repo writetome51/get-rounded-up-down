@@ -3,8 +3,8 @@
 Avoids cumulative rounding errors only by changing rounding rules when  
 the fraction part of `num` is `.5` :  
 <ul>  
-    <li>If <code>num</code>'s whole number is even, `num` is rounded toward zero.</li>
-    <li>If <code>num</code>'s whole number is odd, `num` is rounded away from zero.</li>
+    <li>If <code>num</code>'s whole number is even, <code>num</code> is rounded toward zero.</li>
+    <li>If <code>num</code>'s whole number is odd, <code>num</code> is rounded away from zero.</li>
  </ul>
 
 # getRoundedDown(num): number
